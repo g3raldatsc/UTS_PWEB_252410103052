@@ -1,4 +1,5 @@
 :root {
+    --putih: #f7f3f3;
     --hitam: #1a1a1a;
     --pink: #ff5c8a;
     --kuning: #ffd93d;
@@ -48,7 +49,6 @@ h1, h2, h3, .logo {
     font-size: 2rem;
     color: var(--hitam);
     text-decoration: none;
-    text-shadow: 2px 2px 0 var(--pink);
 }
 .menu { list-style: none; display: flex; gap: 10px; }
 .menu a {
@@ -86,7 +86,7 @@ h1, h2, h3, .logo {
 /* iki footernya */
 .footer {
     background: var(--hitam);
-    color: var(--kuning);
+    color: var(--putih);
     text-align: center;
     padding: 20px;
     border-top: 4px solid var(--pink);
@@ -175,7 +175,6 @@ h1, h2, h3, .logo {
 .sapaan { font-weight: 800; font-size: 1.1rem; }
 .judul-halaman {
     font-size: 3rem;
-    text-shadow: 3px 3px 0 var(--pink);
     margin-bottom: 24px;
 }
 
